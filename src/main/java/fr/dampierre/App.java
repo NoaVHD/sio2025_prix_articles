@@ -14,7 +14,9 @@ public class App {
             System.err.println("Prix de l'article " + i +" :");
             double prixArticle = clavier.nextInt();
             total = total + prixArticle;
-           /*  int i = 1;
+
+            /*----While----
+            int i = 1;
             while ( i <= nbArticle ) {
             System.out.println ( "Prix de l'article :" + i );
             double prixArticle = clavier.nextInt();
